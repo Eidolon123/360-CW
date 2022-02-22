@@ -110,3 +110,17 @@ Max word count limit excluding diagrams/tables
 - Problem 1: VLANs.
 - Specific devices and speeds
 - Packet tracer diagrams
+- Estimated costs of the solution
+
+
+## Assumptions
+
+*Keep track of what we have assumed for justifications*
+
+- Rate of expansion
+- Amount of people per department
+- Floor space of office
+- Network speeds of region (fiber)
+- Previous security incidents
+  - Server room breach
+-
