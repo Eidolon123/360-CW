@@ -1,7 +1,3 @@
-360CT_Group_Coursework.md
-
----
-
 ## Scenario breakdown
 
 <details>
