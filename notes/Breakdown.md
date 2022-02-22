@@ -9,7 +9,7 @@ Main breakdown
 - Building location: **great Tokyo area**, Kento region of Japan. **(5 miles from old HQ)**
 - (YG) has been rapidly expanding and has current workforce of **290** employees
 - Expansion has caused problems in old network, performance deteriorated dramatically.
-  
+
 
 - **Security** incidents in last **6 months**
 - Access to **old and new** buildings.
