@@ -1,0 +1,2 @@
+- What is "Requirements gathering process"?
+- What exactly is needed in the introduction?
