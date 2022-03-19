@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{batch-processing}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c14c0debd78300103965c801b36cefc}{%
+           family={Heikkinen},
+           familyi={H\bibinitperiod},
+           given={Esa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75b85d8e61227969e44f1fbcf498ba41}{%
+           family={Hamalainen},
+           familyi={H\bibinitperiod},
+           given={Timo\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{fullhash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{bibnamehash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{authorbibnamehash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{authornamehash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{authorfullhash}{986d08ace92033353e9a29a2a1636fa0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE Conference on Industrial Cyberphysical Systems (ICPS)}
+      \field{title}{Deployment of Batch Processing for Log File Analysis}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1109/icps48405.2020.9274712
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

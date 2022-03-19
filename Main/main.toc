@@ -1,0 +1,118 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table of Contents}{ii}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Requirements and Assumptions}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Expansion}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Network Speeds and Bandwidth}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}IP Address Block}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Employee breakdown}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Extra Devices}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Physical Network Design}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Devices}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}CCTV}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Wireless Access Points}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Switches}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Routers}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Wiring}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Fibre}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1.1}Multimode Fiber - OM4}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Copper - CAT6a}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Device Placement}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Ground Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}1st Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}2nd Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.4}3rd Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.5}4th Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.6}5th Floor}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.7}6th Floor}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.8}7th Floor}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.9}Server Room}{6}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Logical Network Design}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Justifications}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Addressing Scheme}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Scheme}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Justifications}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Network Policies}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Issues}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Resolutions}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Security}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Previous Security Threats}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}IP Theft}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Internal Breach}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}Identity Theft}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Possible Security Threats}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Some new attack}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Solutions}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Physical Security Measures}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Access Control}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.3.2.1}Access Control Configurations}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Monitoring and Maintenance}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Software}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Justifications}{13}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Disaster Plan}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Risks}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Plan}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Additional Problems}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Renting One Floor Out}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Splitting Between Two Buildings}{16}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{17}{}%
+\contentsfinish 

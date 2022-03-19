@@ -1,0 +1,74 @@
+\documentclass[12pt,oneside]{book}
+\usepackage[letterpaper, left=1.2in, right=1.2in, top=1cm, bottom=1in]{geometry}
+\pagestyle{plain}
+\usepackage[pagestyles]{titlesec}
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{caption}
+\setcounter{secnumdepth}{4}
+\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex} % apa citation style
+\addbibresource{Reference.bib}
+\usepackage[utf8]{inputenc}
+\usepackage{appendix}
+\usepackage{listings}
+\usepackage{bm}
+\titleformat{\chapter}%
+  {\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
+\newpagestyle{mystyle}{
+  \sethead[][\thechapter.\enspace\chaptertitle][]{}{\thesection~\sectiontitle}{}
+\setfoot{}{\thepage}{}}
+\AtBeginDocument{\renewcommand{\bibname}{References}}
+
+\captionsetup[figure]{margin=1.5cm,font=small,labelfont={bf},name={Figure},labelsep=colon,textfont={it}}
+\captionsetup[table]{margin=1.5cm,font=small,labelfont={bf},name={Table},labelsep=colon,textfont={it}}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Additional Material
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%========================================
+% Title Page
+%========================================
+\input{Additional/TitlePage.tex}
+\pagenumbering{roman}
+\setcounter{page}{2}
+
+%========================================
+% Table of Contents
+%========================================
+\pagenumbering{roman} % Uncomment if Copyright and Acknowledgements are not in use
+\setcounter{page}{2} % Uncomment if Copyright and Acknowledgements are not in use
+\addcontentsline{toc}{chapter}{Table of Contents}
+% \begin{doublespacing}
+\tableofcontents
+\clearpage
+% \end{doublespacing}
+% \currentpdfbookmark{Table of Contents}{TOC}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Main Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% resume page numbering for rest of document
+\pagenumbering{arabic}
+\setcounter{page}{1} % set the page number appropriately
+
+\input{Sections/1_Introduction.tex}
+\input{Sections/2_Requirements.tex}
+\input{Sections/3_Devices.tex}
+\input{Sections/4_NetworkDesign.tex}
+\input{Sections/5_Addressing.tex}
+\input{Sections/6_Policies.tex}
+\input{Sections/7_Security.tex}
+\input{Sections/8_Monitoring.tex}
+\input{Sections/9_DisasterPlan.tex}
+\input{Sections/10_AdditionalProblems.tex}
+\clearpage
+
+% References
+\addcontentsline{toc}{chapter}{References}
+\printbibliography
+\end{document}
