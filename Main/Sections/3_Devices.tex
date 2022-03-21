@@ -8,12 +8,16 @@
 \subsection{}
 \section{Wiring}
 \subsection{Fibre}
+A full fiber solution will be employed for this network to account for future proofing and less noise on the network.
 \subsubsection{Multimode Fiber - OM4}
+Current network will be 10GBASE-SR, using OM4 fiber will give us options to expand to 40GBASE-SR or 100GBASE-SR in future.
 Could be used in and between core/access due to high data transfer rates (10Gbps) over a distance of 550m.\\
 While the distance of 550m is overkill for a 7 story building, the allowance for higher distances at higher speeds (100m at 100Gbps) will be good for futurproofing our solution.\\
-Use case would be from server room to server cupboard.\\
+Cost of fiber is reducing as time passes, basically as cheap as ethernet at this point.\\
 OM4 would be used due to the cost/benifit compared to OM5 which would be overkill for our setup.\\
-
+Will incure an additional cost of installing fiber optic enabled network cards in workstations.\\
+\subsubsection{Transceivers - CISCO X2-10GB-SR}
+Smaller form factor than counter parts, allows for higher port density.\\
 \begin{table}[]
     \centering
     \begin{tabular}{|c|c|c|}
@@ -26,15 +30,17 @@ OM4 would be used due to the cost/benifit compared to OM5 which would be overkil
     OM5  & 550m                             &                \\ \hline
     \end{tabular}
 \end{table}
-\subsection{Copper - CAT6a}
-Allows us to utilise 10Gbps over 100m. Use case would be from workstations to server cupboard.
 \section{Device Placement}
+Change numbers of legal, marketing, finance and personnel to match google doc numbers.
+\subsection{Patch Pannels}
+Patch pannels could be placed on each floor to house access section L2 switches.
 \subsection{Ground Floor}
-\begin{figure}[!h]
+\begin{figure}[h]
     \includegraphics[width=15cm]{Figures/ground.png}
     \caption{Ground floor floor plan}
     \label{ground_floor}
 \end{figure}
+Change this diagram 10 to 20
 \subsection{1st Floor}
 \begin{huge}
     MAKE NEW 1ST FLOOR
@@ -44,28 +50,29 @@ Allows us to utilise 10Gbps over 100m. Use case would be from workstations to se
     MAKE NEW 2ND FLOOR
 \end{huge}
 \subsection{3rd Floor}
-\begin{figure}[!h]
+\begin{figure}[h]
     \includegraphics[width=15cm]{Figures/3rd-Floor.png}
     \caption{3rd floor floor plan}
     \label{3rd_floor}
 \end{figure}
 \subsection{4th Floor}
 This is text
-\begin{figure}[!h]
+\begin{figure}[h]
     \includegraphics[width=15cm]{Figures/4th-Floor.png}
     \caption{4th floor floor plan}
     \label{4th_floor}
 \end{figure}
+and so is this
 \subsection{5th Floor}
 This is text
-\begin{figure}[!h]
+\begin{figure}[h]
     \includegraphics[width=15cm]{Figures/5th-Floor.png}
     \caption{5th floor floor plan}
     \label{5th_floor}
 \end{figure}
 \subsection{6th Floor}
 This is text
-\begin{figure}[!h]
+\begin{figure}[h]
     \includegraphics[width=15cm]{Figures/6th-Floor.png}
     \caption{6th floor floor plan}
     \label{6th_floor}
