@@ -1,5 +1,25 @@
 \chapter{Security}
 
+\section{Overview}
+Advancements in network technology has changed how employees work, even more drastically in recent years in response to COVID-19. This has led to employees possessing the ability to acquire, modify and distribute information more easily. Despite this being beneficial in terms of productivity, it is just as much of a threat to network security.
+As Yotsuba Group is a large manufacturing company leading the market in Asia, their assets and infrastructure are a prime target for cyber-attacks. The manufacturing industry is reported as the 2nd most targeted industry by cyber attackers, primarily due to COVID-19 (https://www.bitlyft.com/resources/cyber-threats-manufacturing-companies) so ensuring that Yotsuba Group can cope with these threats is crucial.
+\section{Identifying Network Security Threats}
+\subsection{MAC Spoofing}
+Attacks occur in all layers, but level 2 and level 3 attacks are the primary concern in networks. MAC spoofing is a common layer 2 attack that forges a suspicious MAC address as a legitimate one. Due to this, a suspicious device can then bypass security controls to access the network. 
+\subsection{ARP Cache Poisoning}
+Similarly, common layer 3 attacks include ARP cache poisoning. This attack exploits vulnerabilities in the ARP protocol that potentially leads to man-in-the-middle attacks. Since the ARP protocol doesn’t verify identities, it can be easy for an attacker to trick a legitimate host into thinking its legitimate itself. Therefore, if an ARP poisoning attack is successful, the attacker can view all traffic sent between two hosts.
+\subsection{Distributed-Denial-of-Service (DDoS)}
+
+\section{Solutions}
+\subsection{Device Security}
+At the very least, YG should ensure that devices are made more secure by implementing a strong password policy and multi-factor authentication. This is basic level security but prevents even the simplest of attacks. Unnecessary services and applications should also be disabled on devices that do not need them to protect the network from vulnerabilities in certain applications. For example, employees in the manufacturing department will not need access to finance applications, so segregating them makes the network more robust.
+\subsection{IDS/IPS}
+Intrusion Detection/Prevention Systems can help to analyse traffic, detect attacks or even prevent them.
+\subsection{Firewalls}
+\subsection{ACLs}
+Thorough Access Control Lists should be created to control network traffic. Using the logical network design created earlier, an example ACL has been created between two different departments of the network, ensuring that each department cannot access one another’s resourceshaving ACLs limits the lateral movement an attacker can make within a network.
+\subsection{Network Segregation}
+
 \section{Previous Security Threats}
 The Yotsuba Group reported a number of security incidents in the last 6 months. These have been assumed below.
 \subsection{IP Theft}
@@ -11,8 +31,3 @@ An external attack left the customer database held by the company open and acces
 \section{Possible Security Threats}
 In addition to the previous incidents, various other attacks could be possible against the group and their network. These have been outlined below.
 \subsection{Some new attack}
-\section{Solutions}
-A list of solutions.
-\subsection{Physical Security Measures}
-\subsection{Access Control}
-\subsubsection{Access Control Configurations}

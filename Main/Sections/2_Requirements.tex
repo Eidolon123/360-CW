@@ -1,11 +1,9 @@
 \chapter{Requirements and Assumptions}
 
 \section{Expansion}
-An assumed rate of expansion of 10-20 new employees annually is being used for this project. This expansion will be spread over all departments acquiring 1-2 new employees annually.
+Yotsuba Group is a company experiencing rapid growth, hence the need for their new office space. It is assumed that this rapid expansion is to be around 10-20 (May need to be more scaleable) new employees per year. Because of this, there is a strong requirement for scalability, so the network can cope with this growth and there are no detrimental effects on network performance. It should be kept in mind that the selection of devices and routing protocols should support this need for scalability.
 \section{Network Speeds and Bandwidth}
 Research showed that private internet for the greater Tokyo region had available speeds in the range of 10Mbps to 1Gbps. It is assumed that enterprise internet speeds will be within a similar range and that the Yotsuba Group will be purchasing at the top range. Therefor a 10Gbps connection will be used for the designs.
-\section{IP Address Block}
-As the Yotsuba Group is a rapidly expanding company, it is assumed that they have purchased their own Class B IP block. This block is IP RANGE and will be used for all designs.
 \section{Employee breakdown}
 As no information on individual department employee count was provided it has been assumed based on departmental needs.
 \begin{itemize}
@@ -13,11 +11,21 @@ As no information on individual department employee count was provided it has be
     \item Financial Planning - 20 employees
     \item Sales - 34 employees
     \item Material and Design - 50 employees
-    \item Personnel - 20 employees
+    \item Personnel - 10 employees
     \item Planning and Manufacturing - 60 employees
     \item Legal and Accounting - 10 employees
     \item Marketing - 20 employees
-    \item IT - 20 employees
+    \item IT - 16 employees
     \item Department Head and Assistants - 16 (8+8) employees
 \end{itemize}
-\section{Extra Devices}
+\section{Cisco in Japan}
+The network will be using Cisco hardware, some of which will be transferred from the old 
+building. Cisco (2021) press release demonstrates how the company plans to transition further into Japan through an agreement between the Japanese Government and Cisco on mass-scale digitalisation projects.
+need to cite \parencite{cisco-japan}
+\section{Physical Office Dimensions}
+Floors U1, U2, G, 1, 2, 3, 4, 5, 6: 30mx50m - 64, 7m2 pp \\
+Floor 7: 50mx20m - 16 \\
+Floor7 Balcony: 50mx10m \\
+Reference This: \textbf{M von Piekartz. (2019, March 07). SKEPP. How many square meters of office space do you need per person?. https://skepp.com/en/blog/office-tips/this-is-how-many-square-meters-of-office-space-you-need-per-person#calculator}
+\section{Underground Carpark}
+We are assuming that the two-floor underground car park does not currently have a good mobile signal and therefore, Wi-Fi APs could be implemented underground. This does depend on the budget of the organisation though because it is not necessarily something that is needed but would be helpful for employees who have parked underground as they can still make calls, send emails or do other work from their cars.

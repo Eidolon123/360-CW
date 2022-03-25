@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.21)  21 MAR 2022 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.21)  24 MAR 2022 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,12 +555,13 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
 \c@lstlisting=\count423
- (./Additional/TitlePage.tex
+(./Additional/TitlePage.tex
 <Additional/cov_logo.png, id=1, 643.40375pt x 180.675pt>
 File: Additional/cov_logo.png Graphic file (type png)
 <use Additional/cov_logo.png>
@@ -569,134 +570,313 @@ Package pdftex.def Info: Additional/cov_logo.png  used on input line 16.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Additional/cov_logo.png>]) (./main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
- [2])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Additional/cov_logo.png>])
+No file main.toc.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] (./Sections/2_Requirements.tex
+[2] (./Sections/1_Introduction.tex
 Chapter 1.
-[1
+
+LaTeX Warning: Citation 'batch-processing' on page 1 undefined on input line 3.
+
+) (./Sections/2_Requirements.tex [1
 
 
-]) (./Sections/3_Devices.tex [2]
+]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--19
+LaTeX Warning: Citation 'cisco-japan' on page 2 undefined on input line 24.
 
+[2
+
+]
+./Sections/2_Requirements.tex:29: You can't use `macro parameter character #' in horizontal mode.
+<argument> ...f-office-space-you-need-per-person##
+                                                  calculator
+l.29 ...fice-space-you-need-per-person#calculator}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (75.44978pt too wide) in paragraph at lines 26--30
+\OT1/cmr/bx/n/12 square me-ters of of-fice space do you need per per-son?. https://skepp.com/en/blog/office-
  []
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 21.
+Overfull \hbox (43.37206pt too wide) in paragraph at lines 26--30
+\OT1/cmr/bx/n/12 tips/this-is-how-many-square-meters-of-office-space-you-need-per-personcalculator 
+ []
 
-[3
+) (./Sections/3_Devices.tex [3]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+
+ []
+
+[4
 
 ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 30.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
 <Figures/ground.png, id=28, 1722.435pt x 810.02625pt>
 File: Figures/ground.png Graphic file (type png)
 <use Figures/ground.png>
-Package pdftex.def Info: Figures/ground.png  used on input line 39.
+Package pdftex.def Info: Figures/ground.png  used on input line 48.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/3rd-Floor.png, id=29, 1722.435pt x 810.02625pt>
 File: Figures/3rd-Floor.png Graphic file (type png)
 <use Figures/3rd-Floor.png>
-Package pdftex.def Info: Figures/3rd-Floor.png  used on input line 54.
+Package pdftex.def Info: Figures/3rd-Floor.png  used on input line 63.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
- [4 <./Figures/ground.png>]
-<Figures/4th-Floor.png, id=37, 1722.435pt x 810.02625pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/4th-Floor.png, id=30, 1722.435pt x 810.02625pt>
 File: Figures/4th-Floor.png Graphic file (type png)
 <use Figures/4th-Floor.png>
-Package pdftex.def Info: Figures/4th-Floor.png  used on input line 61.
+Package pdftex.def Info: Figures/4th-Floor.png  used on input line 70.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
-<Figures/5th-Floor.png, id=38, 1722.435pt x 810.02625pt>
+[5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/5th-Floor.png, id=35, 1722.435pt x 810.02625pt>
 File: Figures/5th-Floor.png Graphic file (type png)
 <use Figures/5th-Floor.png>
-Package pdftex.def Info: Figures/5th-Floor.png  used on input line 69.
+Package pdftex.def Info: Figures/5th-Floor.png  used on input line 78.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/6th-Floor.png, id=39, 1722.435pt x 810.02625pt>
+<Figures/6th-Floor.png, id=36, 1722.435pt x 810.02625pt>
 File: Figures/6th-Floor.png Graphic file (type png)
 <use Figures/6th-Floor.png>
-Package pdftex.def Info: Figures/6th-Floor.png  used on input line 76.
+Package pdftex.def Info: Figures/6th-Floor.png  used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./Figures/3rd-Floor.png> <./Figures/4th-Floor.png>]) (./Sections/4_NetworkDesign.tex [6 <./Figures/5th-Floor.png> <./Figures/6th-Floor.png>]
-Chapter 3.
-<Figures/Network_Diagram.png, id=50, 1064.97874pt x 722.7pt>
+[6 <./Figures/ground.png> <./Figures/3rd-Floor.png>]) (./Sections/4_NetworkDesign.tex [7 <./Figures/4th-Floor.png> <./Figures/5th-Floor.png>] [8 <./Figures/6th-Floor.png>]
+Chapter 4.
+<Figures/Network_Diagram.png, id=53, 1064.97874pt x 722.7pt>
 File: Figures/Network_Diagram.png Graphic file (type png)
 <use Figures/Network_Diagram.png>
 Package pdftex.def Info: Figures/Network_Diagram.png  used on input line 4.
 (pdftex.def)             Requested size: 426.79134pt x 289.61522pt.
-) (./Sections/5_Addressing.tex [7
+) (./Sections/5_Addressing.tex [9
 
  <./Figures/Network_Diagram.png>]
-Chapter 4.
-) (./Sections/6_Policies.tex [8
-
-]
 Chapter 5.
-) (./Sections/7_Security.tex [9
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+
+ []
+
+[10
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+
+ []
+
+) (./Sections/6_Policies.tex
+Underfull \hbox (badness 10000) in paragraph at lines 50--1
+
+ []
+
+[11]
 Chapter 6.
-) (./Sections/8_Monitoring.tex [10
+) (./Sections/7_Security.tex [12
 
-] [11]
+]
 Chapter 7.
-) (./Sections/9_DisasterPlan.tex [12
+[13
 
-]
+] [14]) (./Sections/8_Monitoring.tex [15]
 Chapter 8.
-) (./Sections/10_AdditionalProblems.tex [13
+) (./Sections/9_DisasterPlan.tex [16
 
-]
+] [17]
 Chapter 9.
-<Figures/2nd-Floor-Varient.png, id=74, 1722.435pt x 810.02625pt>
+
+Underfull \hbox (badness 1205) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/12 Seek cloud-based com-put-ing
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 11--11
+[]\OT1/cmr/m/n/12 Conduct reg-u-lar fire as-sess-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 11--11
+\OT1/cmr/m/n/12 ments, en-sur-ing sock-ets are
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 11--11
+\OT1/cmr/m/n/12 PAT tested and fire ex-tin-
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 13--13
+\OT1/cmr/m/n/12 dun-dancy are im-ple-mented
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 14--14
+\OT1/cmr/m/n/12 u-lar checks on IT de-vices
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 15--15
+\OT1/cmr/m/n/12 fore up-dat-ing soft-ware. If
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 15--15
+\OT1/cmr/m/n/12 the lat-est ver-sions of soft-
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 16--16
+[]\OT1/cmr/m/n/12 Planned res-o-lu-tion meth-ods
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/12 for each net-work de-vice,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 16--16
+\OT1/cmr/m/n/12 where hard-ware is-sue is if
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 16--16
+\OT1/cmr/m/n/12 back-ups to pre-vent loss of
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 17--17
+\OT1/cmr/m/n/12 with multi-factor au-then-ti-
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 17--17
+\OT1/cmr/m/n/12 ca-tion and en-crypted hard
+ []
+
+
+Overfull \hbox (58.0504pt too wide) in paragraph at lines 7--19
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 29.35254pt on input line 21.
+
+
+LaTeX Warning: Reference `tab:risks_mitigations' on page 18 undefined on input line 27.
+
+) (./Sections/10_AdditionalProblems.tex [18
+
+] [19]
+Chapter 10.
+
+LaTeX Warning: Reference `fig:2nd_floor_varient' on page 20 undefined on input line 5.
+
+<Figures/2nd-Floor-Varient.png, id=90, 1722.435pt x 810.02625pt>
 File: Figures/2nd-Floor-Varient.png Graphic file (type png)
 <use Figures/2nd-Floor-Varient.png>
 Package pdftex.def Info: Figures/2nd-Floor-Varient.png  used on input line 7.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
-<Figures/1st-Floor-varient.png, id=75, 1722.435pt x 810.02625pt>
+<Figures/1st-Floor-varient.png, id=91, 1722.435pt x 810.02625pt>
 File: Figures/1st-Floor-varient.png Graphic file (type png)
 <use Figures/1st-Floor-varient.png>
 Package pdftex.def Info: Figures/1st-Floor-varient.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79134pt x 200.71385pt.
-) [14
+) [20
 
- <./Figures/2nd-Floor-Varient.png> <./Figures/1st-Floor-varient.png>] [15]
+ <./Figures/2nd-Floor-Varient.png> <./Figures/1st-Floor-varient.png>] [21]
 
 LaTeX Warning: Empty bibliography on input line 73.
 
 (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14193 strings out of 478276
- 260834 string characters out of 5853013
- 1053537 words of memory out of 5000000
- 32230 multiletter control sequences out of 15000+600000
+ 14383 strings out of 478276
+ 264682 string characters out of 5853013
+ 1054391 words of memory out of 5000000
+ 32421 multiletter control sequences out of 15000+600000
  477872 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,68p,768b,5033s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,68p,852b,5033s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (18 pages, 473109 bytes).
+Output written on main.pdf (23 pages, 487682 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
