@@ -19,20 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{cisco-japan}{misc}{}
+    \entry{cisco-4506}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2e9d0015563e8f6c3614c219c759934c}{%
-           family={CISCO},
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{2e9d0015563e8f6c3614c219c759934c}
-      \strng{fullhash}{2e9d0015563e8f6c3614c219c759934c}
-      \strng{bibnamehash}{2e9d0015563e8f6c3614c219c759934c}
-      \strng{authorbibnamehash}{2e9d0015563e8f6c3614c219c759934c}
-      \strng{authornamehash}{2e9d0015563e8f6c3614c219c759934c}
-      \strng{authorfullhash}{2e9d0015563e8f6c3614c219c759934c}
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{End-of-Sale and End-of-Life Announcement for the Cisco Catalyst C4500E Series}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-743088.html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-743088.html
+      \endverb
+    \endentry
+    \entry{cisco-japan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -48,27 +79,108 @@
       \verb https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2021/m02/cisco-launches-digitization-program-in-japan-to-support-inclusive-pandemic-recovery.html
       \endverb
     \endentry
-    \entry{batch-processing}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1c14c0debd78300103965c801b36cefc}{%
-           family={Heikkinen},
-           familyi={H\bibinitperiod},
-           given={Esa},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75b85d8e61227969e44f1fbcf498ba41}{%
-           family={Hamalainen},
-           familyi={H\bibinitperiod},
-           given={Timo\bibnamedelima D.},
-           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+    \entry{cisco-firewall}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a firewall?}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en_uk/products/security/firewalls/what-is-a-firewall.html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en_uk/products/security/firewalls/what-is-a-firewall.html
+      \endverb
+    \endentry
+    \entry{datadog}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3983159b26a23291e755be54ac03be23}{%
+           family={Datadog},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3983159b26a23291e755be54ac03be23}
+      \strng{fullhash}{3983159b26a23291e755be54ac03be23}
+      \strng{bibnamehash}{3983159b26a23291e755be54ac03be23}
+      \strng{authorbibnamehash}{3983159b26a23291e755be54ac03be23}
+      \strng{authornamehash}{3983159b26a23291e755be54ac03be23}
+      \strng{authorfullhash}{3983159b26a23291e755be54ac03be23}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Network Performance Monitoring}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.datadoghq.com/product/network-monitoring/network-performance-monitoring/
+      \endverb
+      \verb{url}
+      \verb https://www.datadoghq.com/product/network-monitoring/network-performance-monitoring/
+      \endverb
+    \endentry
+    \entry{arp-posioning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6fbf27695c4de357c0312adcf72304a7}{%
+           family={Grimmick},
+           familyi={G\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{986d08ace92033353e9a29a2a1636fa0}
-      \strng{fullhash}{986d08ace92033353e9a29a2a1636fa0}
-      \strng{bibnamehash}{986d08ace92033353e9a29a2a1636fa0}
-      \strng{authorbibnamehash}{986d08ace92033353e9a29a2a1636fa0}
-      \strng{authornamehash}{986d08ace92033353e9a29a2a1636fa0}
-      \strng{authorfullhash}{986d08ace92033353e9a29a2a1636fa0}
+      \strng{namehash}{6fbf27695c4de357c0312adcf72304a7}
+      \strng{fullhash}{6fbf27695c4de357c0312adcf72304a7}
+      \strng{bibnamehash}{6fbf27695c4de357c0312adcf72304a7}
+      \strng{authorbibnamehash}{6fbf27695c4de357c0312adcf72304a7}
+      \strng{authornamehash}{6fbf27695c4de357c0312adcf72304a7}
+      \strng{authorfullhash}{6fbf27695c4de357c0312adcf72304a7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Varonis}
+      \field{title}{ARP Poisoning: What it is \& How to Prevent ARP Spoofing Attacks}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.varonis.com/blog/arp-poisoning
+      \endverb
+      \verb{url}
+      \verb https://www.varonis.com/blog/arp-poisoning
+      \endverb
+    \endentry
+    \entry{helpsystems}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3720c9e881998cd225ded334b21a00d4}{%
+           family={Helpsystems},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3720c9e881998cd225ded334b21a00d4}
+      \strng{fullhash}{3720c9e881998cd225ded334b21a00d4}
+      \strng{bibnamehash}{3720c9e881998cd225ded334b21a00d4}
+      \strng{authorbibnamehash}{3720c9e881998cd225ded334b21a00d4}
+      \strng{authornamehash}{3720c9e881998cd225ded334b21a00d4}
+      \strng{authorfullhash}{3720c9e881998cd225ded334b21a00d4}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -76,11 +188,138 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{2020 IEEE Conference on Industrial Cyberphysical Systems (ICPS)}
-      \field{title}{Deployment of Batch Processing for Log File Analysis}
+      \field{title}{Intermapper | Network Monitoring Software}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.helpsystems.com/products/network-monitoring-software
+      \endverb
+      \verb{url}
+      \verb https://www.helpsystems.com/products/network-monitoring-software
+      \endverb
+    \endentry
+    \entry{top7-BitLyft}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38a95be74790c71e1a1488746601d144}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Jasoon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38a95be74790c71e1a1488746601d144}
+      \strng{fullhash}{38a95be74790c71e1a1488746601d144}
+      \strng{bibnamehash}{38a95be74790c71e1a1488746601d144}
+      \strng{authorbibnamehash}{38a95be74790c71e1a1488746601d144}
+      \strng{authornamehash}{38a95be74790c71e1a1488746601d144}
+      \strng{authorfullhash}{38a95be74790c71e1a1488746601d144}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BitLyft}
+      \field{title}{Top 7 Cyber Threats for Manufacturing Companies}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.bitlyft.com/resources/cyber-threats-manufacturing-companies
+      \endverb
+      \verb{url}
+      \verb https://www.bitlyft.com/resources/cyber-threats-manufacturing-companies
+      \endverb
+    \endentry
+    \entry{solarwinds}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c41ad41df449083927c4bbf30714b46b}{%
+           family={Solarwinds},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c41ad41df449083927c4bbf30714b46b}
+      \strng{fullhash}{c41ad41df449083927c4bbf30714b46b}
+      \strng{bibnamehash}{c41ad41df449083927c4bbf30714b46b}
+      \strng{authorbibnamehash}{c41ad41df449083927c4bbf30714b46b}
+      \strng{authornamehash}{c41ad41df449083927c4bbf30714b46b}
+      \strng{authorfullhash}{c41ad41df449083927c4bbf30714b46b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Network Performance Monitor - Onsite \& Remote Monitoring}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.solarwinds.com/network-performance-monitor
+      \endverb
+      \verb{url}
+      \verb https://www.solarwinds.com/network-performance-monitor
+      \endverb
+    \endentry
+    \entry{mac-spoofing}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9546e44d637e15fda69c237f3d71b7c8}{%
+           family={Upadhyay},
+           familyi={U\bibinitperiod},
+           given={Isha},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9546e44d637e15fda69c237f3d71b7c8}
+      \strng{fullhash}{9546e44d637e15fda69c237f3d71b7c8}
+      \strng{bibnamehash}{9546e44d637e15fda69c237f3d71b7c8}
+      \strng{authorbibnamehash}{9546e44d637e15fda69c237f3d71b7c8}
+      \strng{authornamehash}{9546e44d637e15fda69c237f3d71b7c8}
+      \strng{authorfullhash}{9546e44d637e15fda69c237f3d71b7c8}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jigsaw Academy}
+      \field{title}{MAC Spoofing Attack: All You Need to Know in 6 important points}
       \field{year}{2020}
-      \verb{doi}
-      \verb 10.1109/icps48405.2020.9274712
+      \verb{urlraw}
+      \verb https://www.jigsawacademy.com/blogs/cyber-security/mac-spoofing-attack/
+      \endverb
+      \verb{url}
+      \verb https://www.jigsawacademy.com/blogs/cyber-security/mac-spoofing-attack/
+      \endverb
+    \endentry
+    \entry{floor-space}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e0a8973e19bde967b288890d0d9b92fc}{%
+           family={Piekartz},
+           familyi={P\bibinitperiod},
+           given={Matthijs},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0a8973e19bde967b288890d0d9b92fc}
+      \strng{fullhash}{e0a8973e19bde967b288890d0d9b92fc}
+      \strng{bibnamehash}{e0a8973e19bde967b288890d0d9b92fc}
+      \strng{authorbibnamehash}{e0a8973e19bde967b288890d0d9b92fc}
+      \strng{authornamehash}{e0a8973e19bde967b288890d0d9b92fc}
+      \strng{authorfullhash}{e0a8973e19bde967b288890d0d9b92fc}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How many square meters of office space do you need per person}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://skepp.com/en/blog/office-tips/this-is-how-many-square-meters-of-office-space-you-need-per-person#calculator
+      \endverb
+      \verb{url}
+      \verb https://skepp.com/en/blog/office-tips/this-is-how-many-square-meters-of-office-space-you-need-per-person#calculator
       \endverb
     \endentry
   \enddatalist

@@ -1,24 +1,23 @@
 \chapter{Security}
 
 \section{Overview}
-Advancements in network technology has changed how employees work, even more drastically in recent years in response to COVID-19. This has led to employees possessing the ability to acquire, modify and distribute information more easily. Despite this being beneficial in terms of productivity, it is just as much of a threat to network security.
-As Yotsuba Group is a large manufacturing company leading the market in Asia, their assets and infrastructure are a prime target for cyber-attacks. The manufacturing industry is reported as the 2nd most targeted industry by cyber attackers, primarily due to COVID-19 (https://www.bitlyft.com/resources/cyber-threats-manufacturing-companies) so ensuring that Yotsuba Group can cope with these threats is crucial.
+As Yotsuba Group is a large manufacturing company leading the market in Asia, their assets and infrastructure are a prime target for cyber-attacks. The manufacturing industry is reported as the 2nd most targeted industry by cyber attackers, primarily due to COVID-19 \parencite{top7-BitLyft} so ensuring that Yotsuba Group can cope with these threats is crucial.
 \section{Identifying Network Security Threats}
 \subsection{MAC Spoofing}
-Attacks occur in all layers, but level 2 and level 3 attacks are the primary concern in networks. MAC spoofing is a common layer 2 attack that forges a suspicious MAC address as a legitimate one. Due to this, a suspicious device can then bypass security controls to access the network. 
-\subsection{ARP Cache Poisoning}
-Similarly, common layer 3 attacks include ARP cache poisoning. This attack exploits vulnerabilities in the ARP protocol that potentially leads to man-in-the-middle attacks. Since the ARP protocol doesn’t verify identities, it can be easy for an attacker to trick a legitimate host into thinking its legitimate itself. Therefore, if an ARP poisoning attack is successful, the attacker can view all traffic sent between two hosts.
-\subsection{Distributed-Denial-of-Service (DDoS)}
+ MAC spoofing is a common layer 2 attack that forges a suspicious MAC address as a legitimate one. Due to this, a suspicious device can then bypass security controls to access the network \parencite{mac-spoofing}.
+ARP Cache Poisoning: Similarly, common layer 3 attacks include ARP cache poisoning. This attack takes advantage of the insecure nature of the ARP protocol and potentially leads to man-in-the-middle attacks. Since the ARP protocol doesn't verify identities, it can be easy for an attacker to trick a legitimate host into thinking its legitimate itself. Therefore, if an ARP poisoning attack is successful, the attacker can view all traffic sent between two hosts \parencite{arp-posioning} check.
+\subsection{Static VLAN Security}
+Insecurities of static VLAN switches could lead to an attacker being able to connect to a VLAN by simply connecting their device to a switch. If successful, an attacker would be able to communicate to other devices in the VLAN as well as accessing potentially sensitive data.
 
-\section{Solutions}
+\section{Mitigation}
 \subsection{Device Security}
-At the very least, YG should ensure that devices are made more secure by implementing a strong password policy and multi-factor authentication. This is basic level security but prevents even the simplest of attacks. Unnecessary services and applications should also be disabled on devices that do not need them to protect the network from vulnerabilities in certain applications. For example, employees in the manufacturing department will not need access to finance applications, so segregating them makes the network more robust.
-\subsection{IDS/IPS}
-Intrusion Detection/Prevention Systems can help to analyse traffic, detect attacks or even prevent them.
-\subsection{Firewalls}
-\subsection{ACLs}
-Thorough Access Control Lists should be created to control network traffic. Using the logical network design created earlier, an example ACL has been created between two different departments of the network, ensuring that each department cannot access one another’s resourceshaving ACLs limits the lateral movement an attacker can make within a network.
-\subsection{Network Segregation}
+At the very least, YG should implement a strong password policy and multi-factor authentication. This is basic level security but prevents even the simplest of attacks. Unnecessary services and applications should also be disabled on devices that do not need them to protect the network from vulnerabilities in certain applications. For example, employees in the manufacturing department will not need access to finance applications, so segregating them makes the network more robust.
+\subsection{Port Security}
+Sticky MAC addressing. A switch will learn a MAC address that corresponds to a specific port. In sticky learning, this is remembered even after a reboot. Introducing sticky MAC address learning means a device that is not recognised will not be allowed into the network.
+\subsection{ACLs and Firewalls}
+Thorough Access Control Lists should be created to control network traffic. Having ACLs limits the lateral movement an attacker can make within a network by permitting or denying traffic from one host or group to another. Similarly, we have placed a firewall between the internet and internal network. The firewall protects the network by filtering incoming packets and decides whether to drop the packet based off a predefined set of rules \parencite{cisco-firewall}.
+\subsection{Static ARP Tables}
+Manually configuring ARP tables means that MAC addresses can be statically mapped to their corresponding IP address. Doing this is a highly effective method to prevent ARP poisoning attacks, although requires a lot of time to complete \parencite{arp-posioning}. 
 
 \section{Previous Security Threats}
 The Yotsuba Group reported a number of security incidents in the last 6 months. These have been assumed below.
@@ -28,6 +27,3 @@ The company had some intellectual property stolen from a physical attack on the 
 30\% of attacks come from employee’s within the companies, some data was accessed by departments who has access to other parts of the organisation that they should not have had. A lack of access control was the cause of this attack.
 \subsection{Identity Theft}
 An external attack left the customer database held by the company open and accessible to the attackers, this in turn was used to ciphon their data and initiate fraud through loan applications under customer names.
-\section{Possible Security Threats}
-In addition to the previous incidents, various other attacks could be possible against the group and their network. These have been outlined below.
-\subsection{Some new attack}

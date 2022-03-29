@@ -5,6 +5,9 @@
 \usepackage{titletoc}
 \usepackage{tocloft}
 \usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[toc,page]{appendix}
 \usepackage{caption}
 \setcounter{secnumdepth}{4}
 \usepackage[backend=biber,style=apa,sorting=nyt]{biblatex} % apa citation style
@@ -41,6 +44,7 @@
 %========================================
 \pagenumbering{roman} % Uncomment if Copyright and Acknowledgements are not in use
 \setcounter{page}{2} % Uncomment if Copyright and Acknowledgements are not in use
+\setcounter{tocdepth}{1}
 \addcontentsline{toc}{chapter}{Table of Contents}
 % \begin{doublespacing}
 \tableofcontents
@@ -71,4 +75,15 @@
 % References
 \addcontentsline{toc}{chapter}{References}
 \printbibliography
+
+
+\begin{appendices}
+\chapter{Layered model}
+\label{appendix:layered-model}
+This design uses the layered Core, Distribution, Access model approach to demonstrate the network structure. Each layer is represented by a different colour (Green = Access, Orange = Distribution, Blue = Core, and the Yellow = DMZ), and the tags on each section show the number of devices, name of the department, number of employees in each department and their floor numbers.
+\chapter{Demilitarized Zone (DMZ)}
+\label{appendix:dmz}
+The DMZ presented keeps the external facing servers between two firewalls, giving them security but also easy access to the internet without going through the internal network.
+\end{appendices}
+
 \end{document}
