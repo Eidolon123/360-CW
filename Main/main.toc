@@ -8,79 +8,77 @@
 \contentsline {section}{\numberline {2.5}Physical Office Dimensions}{3}{}%
 \contentsline {section}{\numberline {2.6}Underground Carpark}{3}{}%
 \contentsline {section}{\numberline {2.7}Previous Devices}{3}{}%
-\contentsline {section}{\numberline {2.8}Extra Devices}{3}{}%
-\contentsline {section}{\numberline {2.9}Previous Security Threats}{3}{}%
-\contentsline {subsection}{\numberline {2.9.1}IP Theft}{3}{}%
-\contentsline {subsection}{\numberline {2.9.2}Internal Breach}{4}{}%
-\contentsline {subsection}{\numberline {2.9.3}Identity Theft}{4}{}%
-\contentsline {chapter}{\numberline {3}Physical Network Design}{5}{}%
-\contentsline {section}{\numberline {3.1}Devices}{5}{}%
-\contentsline {subsection}{\numberline {3.1.1}Workstations}{5}{}%
-\contentsline {subsection}{\numberline {3.1.2}Servers}{5}{}%
-\contentsline {subsection}{\numberline {3.1.3}Wireless Access Points (WAP)}{5}{}%
-\contentsline {subsection}{\numberline {3.1.4}Media Converter}{5}{}%
-\contentsline {subsection}{\numberline {3.1.5}Layer 3 Switch}{5}{}%
-\contentsline {subsubsection}{\numberline {3.1.5.1}Chassis - C4506-E}{5}{}%
-\contentsline {subsubsection}{\numberline {3.1.5.2}Line Card - WS-X4712-SFP+E5}{5}{}%
-\contentsline {subsection}{\numberline {3.1.6}Layer 2 Switch}{6}{}%
-\contentsline {subsubsection}{\numberline {3.1.6.1}Chassis - C9404R}{6}{}%
-\contentsline {subsubsection}{\numberline {3.1.6.2}Line Card - C9400-LC-48XS}{6}{}%
-\contentsline {subsubsection}{\numberline {3.1.6.3}Supervisor Card - C9400-SUP-1XL-Y}{6}{}%
-\contentsline {subsection}{\numberline {3.1.7}Router}{6}{}%
-\contentsline {subsection}{\numberline {3.1.8}Firewall}{6}{}%
-\contentsline {section}{\numberline {3.2}Wiring}{6}{}%
-\contentsline {subsection}{\numberline {3.2.1}Multimode Fiber - OM4}{6}{}%
-\contentsline {subsection}{\numberline {3.2.2}Uninterruptible Power Supply}{7}{}%
-\contentsline {section}{\numberline {3.3}Device Placement}{7}{}%
-\contentsline {subsection}{\numberline {3.3.1}Patch Pannels}{7}{}%
-\contentsline {subsection}{\numberline {3.3.2}Ground Floor}{7}{}%
-\contentsline {subsection}{\numberline {3.3.3}1st Floor}{8}{}%
-\contentsline {subsection}{\numberline {3.3.4}2nd Floor}{8}{}%
-\contentsline {subsection}{\numberline {3.3.5}3rd Floor}{9}{}%
-\contentsline {subsection}{\numberline {3.3.6}4th Floor}{9}{}%
-\contentsline {subsection}{\numberline {3.3.7}5th Floor}{10}{}%
-\contentsline {subsection}{\numberline {3.3.8}6th Floor}{10}{}%
-\contentsline {subsection}{\numberline {3.3.9}7th Floor}{11}{}%
-\contentsline {subsection}{\numberline {3.3.10}Server Room}{11}{}%
-\contentsline {chapter}{\numberline {4}Logical Network Design}{12}{}%
-\contentsline {section}{\numberline {4.1}Justifications}{12}{}%
-\contentsline {subsection}{\numberline {4.1.1}Server connections}{12}{}%
-\contentsline {subsection}{\numberline {4.1.2}Topology}{13}{}%
-\contentsline {subsection}{\numberline {4.1.3}External facing router}{13}{}%
-\contentsline {subsection}{\numberline {4.1.4}Wireless access points}{13}{}%
-\contentsline {subsection}{\numberline {4.1.5}Private addressing scheme and implementation}{13}{}%
-\contentsline {chapter}{\numberline {5}Addressing Scheme}{14}{}%
-\contentsline {section}{\numberline {5.1}Scheme}{14}{}%
-\contentsline {section}{\numberline {5.2}Justifications}{14}{}%
-\contentsline {chapter}{\numberline {6}Policies}{15}{}%
-\contentsline {section}{\numberline {6.1}Work issued hardware}{15}{}%
-\contentsline {section}{\numberline {6.2}backups}{15}{}%
-\contentsline {section}{\numberline {6.3}New Infrastructure}{15}{}%
-\contentsline {section}{\numberline {6.4}Employee onboarding/offboarding}{15}{}%
-\contentsline {section}{\numberline {6.5}Personal Devices}{15}{}%
-\contentsline {section}{\numberline {6.6}Remote Working}{16}{}%
-\contentsline {section}{\numberline {6.7}Access Control}{16}{}%
-\contentsline {chapter}{\numberline {7}Security}{17}{}%
-\contentsline {section}{\numberline {7.1}Overview}{17}{}%
-\contentsline {section}{\numberline {7.2}Identifying Network Security Threats}{17}{}%
-\contentsline {subsection}{\numberline {7.2.1}MAC Spoofing}{17}{}%
-\contentsline {subsection}{\numberline {7.2.2}Static VLAN Security}{17}{}%
-\contentsline {section}{\numberline {7.3}Mitigation}{17}{}%
-\contentsline {subsection}{\numberline {7.3.1}Device Security}{17}{}%
-\contentsline {subsection}{\numberline {7.3.2}Port Security}{18}{}%
-\contentsline {subsection}{\numberline {7.3.3}ACLs and Firewalls}{18}{}%
-\contentsline {subsection}{\numberline {7.3.4}Static ARP Tables}{18}{}%
-\contentsline {chapter}{\numberline {8}Monitoring and Maintenance}{19}{}%
-\contentsline {section}{\numberline {8.1}Overview}{19}{}%
-\contentsline {section}{\numberline {8.2}Network Monitoring and Maintenance}{19}{}%
-\contentsline {chapter}{\numberline {9}Disaster Plan}{21}{}%
-\contentsline {section}{\numberline {9.1}Outline and Scope}{21}{}%
-\contentsline {section}{\numberline {9.2}Risks and Mitigation}{22}{}%
-\contentsline {section}{\numberline {9.3}Risk Assessment Matrix}{23}{}%
-\contentsline {chapter}{\numberline {10}Additional Problems}{24}{}%
-\contentsline {section}{\numberline {10.1}Renting One Floor Out}{24}{}%
-\contentsline {section}{\numberline {10.2}Splitting Between Two Buildings}{25}{}%
-\contentsline {chapter}{References}{26}{}%
+\contentsline {section}{\numberline {2.8}Previous Security Threats}{3}{}%
+\contentsline {subsection}{\numberline {2.8.1}IP Theft}{3}{}%
+\contentsline {subsection}{\numberline {2.8.2}Internal Breach}{3}{}%
+\contentsline {chapter}{\numberline {3}Physical Network Design}{4}{}%
+\contentsline {section}{\numberline {3.1}Devices}{4}{}%
+\contentsline {subsection}{\numberline {3.1.1}Workstations}{4}{}%
+\contentsline {subsection}{\numberline {3.1.2}Servers}{4}{}%
+\contentsline {subsection}{\numberline {3.1.3}Wireless Access Points (WAP)}{4}{}%
+\contentsline {subsection}{\numberline {3.1.4}Media Converter}{4}{}%
+\contentsline {subsection}{\numberline {3.1.5}Layer 3 Switch}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.5.1}Chassis - C4506-E}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.5.2}Line Card - WS-X4712-SFP+E5}{4}{}%
+\contentsline {subsection}{\numberline {3.1.6}Layer 2 Switch}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.6.1}Chassis - C9404R}{5}{}%
+\contentsline {subsubsection}{\numberline {3.1.6.2}Line Card - C9400-LC-48XS}{5}{}%
+\contentsline {subsection}{\numberline {3.1.7}Router}{5}{}%
+\contentsline {subsection}{\numberline {3.1.8}Firewall- Cisco Firepower 4125}{5}{}%
+\contentsline {section}{\numberline {3.2}Wiring}{5}{}%
+\contentsline {subsection}{\numberline {3.2.1}Multi-mode Fiber - OM4}{5}{}%
+\contentsline {subsection}{\numberline {3.2.2}Copper Ethernet - CAT5e}{6}{}%
+\contentsline {section}{\numberline {3.3}Uninterruptible Power Supply - 2x SRV10KIL with 4x SRV240BP-9A}{6}{}%
+\contentsline {subsection}{\numberline {3.3.1}Patch Panels}{6}{}%
+\contentsline {section}{\numberline {3.4}Device Placement}{6}{}%
+\contentsline {subsection}{\numberline {3.4.1}Ground Floor}{7}{}%
+\contentsline {subsection}{\numberline {3.4.2}1st Floor}{7}{}%
+\contentsline {subsection}{\numberline {3.4.3}2nd Floor}{8}{}%
+\contentsline {subsection}{\numberline {3.4.4}3rd Floor}{8}{}%
+\contentsline {subsection}{\numberline {3.4.5}4th Floor}{9}{}%
+\contentsline {subsection}{\numberline {3.4.6}5th Floor}{9}{}%
+\contentsline {subsection}{\numberline {3.4.7}6th Floor}{10}{}%
+\contentsline {subsection}{\numberline {3.4.8}7th Floor}{10}{}%
+\contentsline {subsection}{\numberline {3.4.9}Server Room}{10}{}%
+\contentsline {chapter}{\numberline {4}Logical Network Design}{11}{}%
+\contentsline {section}{\numberline {4.1}Justifications}{11}{}%
+\contentsline {subsection}{\numberline {4.1.1}Server connections}{11}{}%
+\contentsline {subsection}{\numberline {4.1.2}Topology}{12}{}%
+\contentsline {subsection}{\numberline {4.1.3}External facing router}{12}{}%
+\contentsline {subsection}{\numberline {4.1.4}Wireless access points}{12}{}%
+\contentsline {subsection}{\numberline {4.1.5}Private addressing scheme and implementation}{12}{}%
+\contentsline {chapter}{\numberline {5}Addressing Scheme}{13}{}%
+\contentsline {section}{\numberline {5.1}Scheme}{13}{}%
+\contentsline {section}{\numberline {5.2}Justifications}{13}{}%
+\contentsline {chapter}{\numberline {6}Policies}{14}{}%
+\contentsline {section}{\numberline {6.1}Work issued hardware}{14}{}%
+\contentsline {section}{\numberline {6.2}backups}{14}{}%
+\contentsline {section}{\numberline {6.3}New Infrastructure}{14}{}%
+\contentsline {section}{\numberline {6.4}Employee onboarding/offboarding}{14}{}%
+\contentsline {section}{\numberline {6.5}Personal Devices}{14}{}%
+\contentsline {section}{\numberline {6.6}Remote Working}{15}{}%
+\contentsline {section}{\numberline {6.7}Access Control}{15}{}%
+\contentsline {chapter}{\numberline {7}Security}{16}{}%
+\contentsline {section}{\numberline {7.1}Overview}{16}{}%
+\contentsline {section}{\numberline {7.2}Identifying Network Security Threats}{16}{}%
+\contentsline {subsection}{\numberline {7.2.1}MAC Spoofing}{16}{}%
+\contentsline {subsection}{\numberline {7.2.2}Static VLAN Security}{16}{}%
+\contentsline {section}{\numberline {7.3}Mitigation}{16}{}%
+\contentsline {subsection}{\numberline {7.3.1}Device Security}{16}{}%
+\contentsline {subsection}{\numberline {7.3.2}Port Security}{17}{}%
+\contentsline {subsection}{\numberline {7.3.3}ACLs and Firewalls}{17}{}%
+\contentsline {subsection}{\numberline {7.3.4}Static ARP Tables}{17}{}%
+\contentsline {chapter}{\numberline {8}Monitoring and Maintenance}{18}{}%
+\contentsline {section}{\numberline {8.1}Overview}{18}{}%
+\contentsline {section}{\numberline {8.2}Network Monitoring and Maintenance}{18}{}%
+\contentsline {chapter}{\numberline {9}Disaster Plan}{20}{}%
+\contentsline {section}{\numberline {9.1}Outline and Scope}{20}{}%
+\contentsline {section}{\numberline {9.2}Risks and Mitigation}{21}{}%
+\contentsline {section}{\numberline {9.3}Risk Assessment Matrix}{22}{}%
+\contentsline {chapter}{\numberline {10}Additional Problems}{23}{}%
+\contentsline {section}{\numberline {10.1}Renting One Floor Out}{23}{}%
+\contentsline {section}{\numberline {10.2}Splitting Between Two Buildings}{24}{}%
+\contentsline {chapter}{References}{25}{}%
 \contentsline {chapter}{Appendices}{27}{}%
 \contentsline {chapter}{\numberline {A}Cisco Hierarchical Model}{28}{}%
 \contentsline {chapter}{\numberline {B}Demilitarized Zone (DMZ)}{29}{}%

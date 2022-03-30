@@ -19,7 +19,67 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{cisco-4506}{misc}{}
+    \entry{ups-specs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e68f753bc601f5d9d04717f95042762}{%
+           family={APC},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{fullhash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{bibnamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authorbibnamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authornamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authorfullhash}{0e68f753bc601f5d9d04717f95042762}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{APC Easy UPS On-Line SRV 10000VA 230V}
+      \field{year}{n.d}
+      \verb{urlraw}
+      \verb https://www.apc.com/shop/uk/en/products/APC-Easy-UPS-On-Line-SRV-10000VA-230V-with-Extended-Runtime-Battery-Pack/P-SRV10KIL
+      \endverb
+      \verb{url}
+      \verb https://www.apc.com/shop/uk/en/products/APC-Easy-UPS-On-Line-SRV-10000VA-230V-with-Extended-Runtime-Battery-Pack/P-SRV10KIL
+      \endverb
+    \endentry
+    \entry{bp-specs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e68f753bc601f5d9d04717f95042762}{%
+           family={APC},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{fullhash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{bibnamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authorbibnamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authornamehash}{0e68f753bc601f5d9d04717f95042762}
+      \strng{authorfullhash}{0e68f753bc601f5d9d04717f95042762}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{APC Easy UPS On-Line SRV Battery Pack (6/10kVA)}
+      \field{year}{n.d}
+      \verb{urlraw}
+      \verb https://www.apc.com/shop/uk/en/products/APC-Easy-UPS-On-Line-SRV-Battery-Pack-6-10kVA-for-Extended-Runtime-Model-240V-2160VAh/P-SRV240BP-9A
+      \endverb
+      \verb{url}
+      \verb https://www.apc.com/shop/uk/en/products/APC-Easy-UPS-On-Line-SRV-Battery-Pack-6-10kVA-for-Extended-Runtime-Model-240V-2160VAh/P-SRV240BP-9A
+      \endverb
+    \endentry
+    \entry{layer3-lc-datasheet}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
            family={Cisco},
@@ -32,6 +92,35 @@
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
       \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Catalyst 4500 Series Line Cards Data Sheet}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-4500-series-line-cards/product_data_sheet0900aecd802109ea.html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/catalyst-4500-series-line-cards/product_data_sheet0900aecd802109ea.html
+      \endverb
+    \endentry
+    \entry{cisco-4506}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -60,7 +149,7 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
@@ -91,7 +180,7 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
@@ -107,6 +196,35 @@
       \endverb
       \verb{url}
       \verb https://www.cisco.com/c/en_uk/products/security/firewalls/what-is-a-firewall.html
+      \endverb
+    \endentry
+    \entry{layer2-lc-datasheet}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Catalyst 9400 Series Switch Line Cards Data Sheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/nb-06-cat9400-series-line-data-sheet-cte-en.html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/nb-06-cat9400-series-line-data-sheet-cte-en.html
       \endverb
     \endentry
     \entry{datadog}{misc}{}
@@ -135,6 +253,34 @@
       \endverb
       \verb{url}
       \verb https://www.datadoghq.com/product/network-monitoring/network-performance-monitoring/
+      \endverb
+    \endentry
+    \entry{mm-fiber-stats}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ff51ae0c32e8f90fecee76e93e2eb6}{%
+           family={FlukeNetworks},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{fullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{bibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorbibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authornamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorfullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OM1, OM2, OM3, OM4, OM5 and OS1, OS2 Fiber}
+      \field{year}{n.d}
+      \verb{urlraw}
+      \verb https://www.flukenetworks.com/knowledge-base/copper-testing/om1-om2-om3-om4-om5-and-os1-os2-fiber
+      \endverb
+      \verb{url}
+      \verb https://www.flukenetworks.com/knowledge-base/copper-testing/om1-om2-om3-om4-om5-and-os1-os2-fiber
       \endverb
     \endentry
     \entry{arp-posioning}{misc}{}
