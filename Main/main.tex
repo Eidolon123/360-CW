@@ -4,6 +4,7 @@
 \usepackage[pagestyles]{titlesec}
 \usepackage{titletoc}
 \usepackage{tocloft}
+\usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{multirow}
@@ -73,17 +74,17 @@
 \clearpage
 
 % References
-\addcontentsline{toc}{chapter}{References}
-\printbibliography
-
+\begin{doublespace}
+  \addcontentsline{toc}{chapter}{References}
+  \printbibliography
+\end{doublespace}
 
 \begin{appendices}
 \chapter{Cisco Hierarchical Model}
 \label{appendix:layered-model}
 This design uses the layered Core, Distribution, Access model approach to demonstrate the network structure. Each layer is represented by a different colour (Green = Access, Orange = Distribution, Blue = Core, and the Yellow = DMZ), and the tags on each section show the number of devices, name of the department, number of employees in each department and their floor numbers.
-\chapter{Demilitarized Zone (DMZ)}
-\label{appendix:dmz}
-The DMZ presented keeps the external facing servers between two firewalls, giving them security but also easy access to the internet without going through the internal network.
+We are incorporating the Cisco three-layered hierarchical model to ensure scalability in line with Yotsuba Group's expansion. The model allows for ease of administration, network segregation and redundancy within the network to ensure a higher bandwidth availability. This is facilitated by the Layer three switches we have added to the distribution layer. These switches allow for routing between VLANs and enforcing security policies. The company will be able to review the components of their network and update where necessary. By having a clear hierarchical structure, the company will be able to monitor and effectively manage the network that has been designed.
+
 \end{appendices}
 
 \end{document}

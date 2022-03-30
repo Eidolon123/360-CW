@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[59] biber:340> INFO - === Wed Mar 30, 2022, 12:42:18
-[70] Biber.pm:418> INFO - Reading 'main.bcf'
-[135] Biber.pm:972> INFO - Found 15 citekeys in bib section 0
-[147] Biber.pm:4383> INFO - Processing section 0
-[155] Biber.pm:4574> INFO - Looking for bibtex file 'Reference.bib' for section 0
-[156] bibtex.pm:1713> INFO - LaTeX decoding ...
-[163] bibtex.pm:1518> INFO - Found BibTeX data source 'Reference.bib'
-[245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[245] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[245] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[245] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[259] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[264] bbl.pm:757> INFO - Output to main.bbl
-[264] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'mm-fiber-stats' is not an integer - this will probably not sort properly.
-[265] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'ups-specs' is not an integer - this will probably not sort properly.
-[265] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'bp-specs' is not an integer - this will probably not sort properly.
-[265] Biber.pm:132> INFO - WARNINGS: 3
+[68] biber:340> INFO - === Wed Mar 30, 2022, 20:58:31
+[80] Biber.pm:418> INFO - Reading 'main.bcf'
+[161] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
+[177] Biber.pm:4383> INFO - Processing section 0
+[187] Biber.pm:4574> INFO - Looking for bibtex file 'Reference.bib' for section 0
+[187] bibtex.pm:1713> INFO - LaTeX decoding ...
+[197] bibtex.pm:1518> INFO - Found BibTeX data source 'Reference.bib'
+[303] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[303] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[303] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[304] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[322] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[329] bbl.pm:757> INFO - Output to main.bbl
+[330] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'ups-specs' is not an integer - this will probably not sort properly.
+[330] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'bp-specs' is not an integer - this will probably not sort properly.
+[330] Biber.pm:130> WARN - legacy year field 'n.d' in entry 'mm-fiber-stats' is not an integer - this will probably not sort properly.
+[330] Biber.pm:132> INFO - WARNINGS: 3

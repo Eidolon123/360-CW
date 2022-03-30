@@ -137,7 +137,7 @@
       \verb https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-series-switches/eos-eol-notice-c51-743088.html
       \endverb
     \endentry
-    \entry{cisco-japan}{misc}{}
+    \entry{cisco-router}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
            family={Cisco},
@@ -153,6 +153,66 @@
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Catalyst 8200 Series Edge Platforms Data Sheet}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8200-series-edge-platforms/nb-06-cat8200-series-edge-plat-ds-cte-en.html#Specifications
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/products/collateral/routers/catalyst-8200-series-edge-platforms/nb-06-cat8200-series-edge-plat-ds-cte-en.html#Specifications
+      \endverb
+    \endentry
+    \entry{cisco-firepower}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Firepower 2100 Series Data Sheet}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cisco.com/c/en/us/products/collateral/security/firepower-2100-series/datasheet-c78-742473.html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/products/collateral/security/firepower-2100-series/datasheet-c78-742473.html
+      \endverb
+    \endentry
+    \entry{cisco-japan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{extraname}{5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -180,10 +240,10 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
-      \field{extraname}{4}
+      \field{extraname}{6}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
@@ -210,7 +270,7 @@
       \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
       \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
-      \field{extraname}{5}
+      \field{extraname}{7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}

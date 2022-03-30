@@ -14,7 +14,6 @@ The network diagram presented is a logical representation of the network being p
 
 \subsection{Server connections}
 \begin{itemize}
-    \item Management server: This server will be established as a core device that will provide a platform for managing the entire network, this device is only accessible from within the network itself and is provided access control mechanisms via R2.
     \item Email and VPN servers: Located within the DMZ, these servers are highly secured due to their increased risk of being attacked by entities attempting to contact them. They provide services to those working away from the office and help to manage the communication in and out of the network.
     \item Department servers: The departments that have dedicated servers are connected to the same switches to make sure they are secure and accessible
 \end{itemize}
@@ -26,3 +25,5 @@ R1 is the router that is closest to the internet, it is behind the firewalls and
 Each department has their own WAP and block of IP addresses in order to divide the network for security purposes. 
 \subsection{Private addressing scheme and implementation}
 To provide the most addresses for the network we are using NAT/PAT, this private addressing allows us to be wasteful, and we have addressed the network accordingly. Each subnet has 254 addresses which is more than enough to consider expansion.
+\subsection{DMZ}
+The DMZ presented keeps the external facing servers between two firewalls, giving them security but also easy access to the internet without going through the internal network.

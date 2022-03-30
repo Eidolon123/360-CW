@@ -38,37 +38,22 @@ This line card has been chosen for the access layer switch as we can fit two of 
     \end{tabular}
     \caption{Specifications for the c9400-LC-48XS linecard \parencite{layer2-lc-datasheet}.}
 \end{table}
-\subsection{Router}
-Cisco 4000 Series Integrated Services Router
-\subsection{Firewall- Cisco Firepower 4125}
-
-\section{Wiring}
-A full fiber solution will be employed for this network to account for future proofing and to reduce noise on the network. Copper based ethernet may be used when fiber is not an option for that device.
-\subsection{Multi-mode Fiber - OM4}
-The current network will be 10GBASE-SR, using OM4 fiber cables. Using OM4 fiber will give us options to expand to 40GBASE-SR or 100GBASE-SR in future also.
-As the solution planned for this building is mostly copperless, OM4 cables will run between all three layers of our network model.
-While the distance of 400m at 10Gbps for OM4 is overkill for a 7 story building, the allowance for higher distances at higher speeds (100m at 100Gbps) will be good for future-proofing our solution.
-The cost of fiber has been decreasing steadily over the past years, due to this there will not be much of a difference between the cost of copper and fiber ethernet solutions. The only additional cost over a copper solution will be the installation of fiber network adaptors in workstation PCs.
+\subsection{Router - C8200-1N-4T}
+The C8200-1N-4T ships with a fast processor and a large amount of ram for an onsite router. This router also allows for the creation of 4000 access control lists, far beyond our need but allows for futer-proofing. The C-NIM-1X ethernet interface allows us to use 10GBASE-SR fiber ethernet with an SFP+ interface \parencite{cisco-router}. 
+\subsection{Firewall - Cisco Firepower 2140}
+The Cisco Firepower 2140 provides sufficient throughput to handle all trafic in the network. Additional interfaces are also available if the need for additional SFP+ connections arrises.
 \begin{table}[H]
     \centering
-    \begin{tabular}{|ccccc|}
+    \begin{tabular}{|cccc|}
     \hline
-    \multicolumn{1}{|c|}{\multirow{2}{*}{Designation}} & \multicolumn{4}{c|}{Distance (m)}                                                                                \\ \cline{2-5} 
-    \multicolumn{1}{|c|}{}                             & \multicolumn{1}{c|}{1000BASE-SX} & \multicolumn{1}{c|}{10GBASE-SR} & \multicolumn{1}{c|}{40GBASE-SR4} & 100GBASE-SR10 \\ \hline
-    OM1                                                & 275                            & 33                              & N/A                             & N/A         \\ \hline
-    OM2                                                & 550                            & 82                              & N/A                             & N/A         \\ \hline
-    OM3                                                & N/A                            & 300                             & 100                             & 100         \\ \hline
-    OM4                                                & N/A                            & 550                             & 150                             & 150         \\ \hline
-    OM5                                                & N/A                            & 550                             & 150                             & 150         \\ \hline
+    \multicolumn{1}{|c|}{SKU} & \multicolumn{1}{c|}{Throughput} & \multicolumn{1}{c|}{Ports}                                 & Amount needed \\ \hline
+    FPR-2140                  & 20Gbps                          & \begin{tabular}[c]{@{}c@{}}12x RF45\\ 4x SFP+\end{tabular} & 2             \\ \hline
     \end{tabular}
-    \caption{Table of distances for Multi-mode Fiber cables \parencite{mm-fiber-stats}.}
-    \label{tab:fiber_distance}
+    \caption{Specifications for FPR-2140 \parencite{cisco-firepower}}
 \end{table}
-\subsection{Copper Ethernet - CAT5e}
-
-\section{Uninterruptible Power Supply - 2x SRV10KIL with 4x SRV240BP-9A}
-Due to the risk of earthquakes and other natural disasters present in Tokyo, Uninterruptible Power Supplies are recommended for this network installation. When the mains power is interrupted these UPS units will keep the infrastructure online for enough time to initiate graceful shutdowns or wait for mains power to come back.
-The addition of extra battery packs will allow for extended runtime when no mains power is being supplied.
+\subsection{Uninterruptible Power Supply - SRV10KIL \& SRV240BP-9A}
+Due to the risk of natural disasters in Tokyo, UPS units are recommended for this network. When the mains is interrupted these UPS units will keep the infrastructure online for enough time to initiate shutdowns or wait for power to come back.
+The addition of battery packs will allow for extended runtime when no power is being supplied. With a capacity of 40kW all devices in the core and distribution layer should be covered with room to expand.
 \begin{table}[H]
     \centering
     \begin{tabular}{|cccc|}
@@ -79,13 +64,37 @@ The addition of extra battery packs will allow for extended runtime when no main
     \caption{Specifications for SRV10KIL \parencite{ups-specs}}
 \end{table}
 \begin{table}[H]
+    \centering
     \begin{tabular}{|cccc|}
     \hline
     \multicolumn{1}{|c|}{SKU} & \multicolumn{1}{c|}{Output capacity} & \multicolumn{1}{c|}{Runtime at max load} & Total Needed \\ \hline
-    SRV240BP-9A               & 10000W                               & 2m 32s                                   & 4            \\ \hline
+    SRV240BP-9A               & 10000W                               & 2m 32s                                   & 2            \\ \hline
     \end{tabular}
     \caption{Specifications for SRV240BP-9A \parencite{bp-specs}}
 \end{table}
+\section{Wiring}
+A full fiber solution will be employed for this network to account for future proofing and to reduce noise on the network. Copper CAT5e ethernet alongside a media converter may be used when fiber is not an option for that device.
+\subsection{Multi-mode Fiber - OM4}
+The current network will be 10GBASE-SR, using OM4 fiber cables. Using OM4 fiber will give us options to expand to 40GBASE-SR or 100GBASE-SR in future.
+The solution planned for this building is mostly copperless, OM4 cables will run between all three layers of our network.
+The distance of 400m at 10Gbps is good for any building expansion, the allowance for higher distances at higher speeds (100m at 100Gbps) will future-proof our solution.
+The cost of fiber has decreased over previous years, due to this there will not any difference between the cost of copper and fiber solutions. The only additional cost over a copper solution will be the installation of network adaptors in workstations.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|ccccc|}
+    \hline
+    \multicolumn{1}{|c|}{\multirow{2}{*}{Designation}} & \multicolumn{4}{c|}{Distance (m)}                                                                                \\ \cline{2-5} 
+    \multicolumn{1}{|c|}{}                             & \multicolumn{1}{c|}{1000BASE-SX} & \multicolumn{1}{c|}{10GBASE-SR} & \multicolumn{1}{c|}{40GBASE-SR4} & 100GBASE-SR10 \\ \hline
+    OM1                                                & 275                            & 33                              & N/A                             & N/A         \\ \hline
+    OM2                                                & 550                            & 82                              & N/A                             & N/A         \\ \hline
+    OM3                                                & N/A                            & 300                             & 100                             & 100         \\ \hline
+    OM4                                                & N/A                            & 400                             & 150                             & 150         \\ \hline
+    OM5                                                & N/A                            & 400                             & 150                             & 150         \\ \hline
+    \end{tabular}
+    \caption{Table of distances for Multi-mode Fiber cables \parencite{mm-fiber-stats}.}
+    \label{tab:fiber_distance}
+\end{table}
+
 \subsection{Patch Panels}
 Patch panels will be placed on each floor to house access section L2 switches. This allows us to create several points of failure, as opposed to a single point of failure of storing all switches in the server room.
 \section{Device Placement}
@@ -120,7 +129,7 @@ The placement of devices in the offices and in the server room is outlined in th
     \caption{4th floor plan}
     \label{fig:4th_floor}
 \end{figure}
-Explain why server room here
+The server room is situated on the 4th floor to be equidistant from all other floors.
 \subsection{5th Floor}
 \begin{figure}[H]
     \includegraphics[width=15cm]{Figures/5th-Floor.png}
@@ -139,10 +148,3 @@ Explain why server room here
     \caption{7th floor plan}
     \label{fig:7th_floor}
 \end{figure}
-\subsection{Server Room}
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=15cm]{Figures/}
-%     \caption{Server racks diagram configured in Cisco PacketTracer}
-%     \label{fig:}
-% \end{figure}
