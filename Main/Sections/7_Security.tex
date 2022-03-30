@@ -17,13 +17,4 @@ Sticky MAC addressing. A switch will learn a MAC address that corresponds to a s
 \subsection{ACLs and Firewalls}
 Thorough Access Control Lists should be created to control network traffic. Having ACLs limits the lateral movement an attacker can make within a network by permitting or denying traffic from one host or group to another. Similarly, we have placed a firewall between the internet and internal network. The firewall protects the network by filtering incoming packets and decides whether to drop the packet based off a predefined set of rules \parencite{cisco-firewall}.
 \subsection{Static ARP Tables}
-Manually configuring ARP tables means that MAC addresses can be statically mapped to their corresponding IP address. Doing this is a highly effective method to prevent ARP poisoning attacks, although requires a lot of time to complete \parencite{arp-posioning}. 
-
-\section{Previous Security Threats}
-The Yotsuba Group reported a number of security incidents in the last 6 months. These have been assumed below.
-\subsection{IP Theft}
-The company had some intellectual property stolen from a physical attack on the servers within the company premises, the attackers were not found or apprehended as the security was not to standard. This attack was made possible by a lack of physical security measures on there network infrastructure.
-\subsection{Internal Breach}
-30\% of attacks come from employee’s within the companies, some data was accessed by departments who has access to other parts of the organisation that they should not have had. A lack of access control was the cause of this attack.
-\subsection{Identity Theft}
-An external attack left the customer database held by the company open and accessible to the attackers, this in turn was used to ciphon their data and initiate fraud through loan applications under customer names.
+Manually configuring ARP tables means that MAC addresses can be statically mapped to their corresponding IP address. Doing this is a highly effective method to prevent ARP poisoning attacks, although requires a lot of time to complete \parencite{arp-posioning}.

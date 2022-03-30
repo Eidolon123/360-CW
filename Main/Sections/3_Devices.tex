@@ -4,7 +4,7 @@
 \subsection{Workstations}
 It is assumed that all workstations in use have been bought over from the old branch to reduce on cost. The only upgrade that would have to be made to each workstation is the installation of an SFP+ network adaptor. The recommended PCI expansion card is the \emph{ASUS 10GbE SFP+ PCIe 3.0 Network Adapter}. This recommendation is due to high reviews and a reputable manufacturer.
 \subsection{Servers}
-Any servers needed in the network such as email or vpn will be generic Linux based draws stored in the server room.
+Any servers needed in the network such as email, DNS or vpn will be generic Linux based draws stored in the server room. Inside the network these servers will be placed within the DMZ area.
 \subsection{Wireless Access Points (WAP)}
 The Cisco Catalyst 9136 WAP has been chosen for its ability to use WiFi 6, further future-proofing our network solution.
 \subsection{Media Converter}
@@ -13,6 +13,15 @@ When applicable for use the TP-Link MC220L media converter will be used to allow
 \subsubsection{Chassis - C4506-E}
 It has been assumed that this is a switch that has been bought over from the old building to save on costs. It is an older model that is no longer sold but is going to be supported by Cisco until 2025 \parencite{cisco-4506}.
 \subsubsection{Line Card - WS-X4712-SFP+E5}
+This line card has been chosen because it can handle the speed of the network while being able to fit multiple in the chosen layer 3 chassis.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|cccc|}
+    \hline
+    \multicolumn{1}{|c|}{SKU} & \multicolumn{1}{c|}{Ports} & \multicolumn{1}{c|}{Speed} & Connector \\ \hline
+    WS-X4712-SFP+E5           & 12                         & 10GBASE-R                  & SFP+/SFP  \\ \hline
+    \end{tabular}
+\end{table}
 \subsection{Layer 2 Switch}
 \subsubsection{Chassis - C9404R}
 This chassis has been chosen as it is the correct size needed to fit two supervisor cards and two line cards. This allows for the correct number of ports as well as additional for company expansion. Going any larger would not be beneficial and cost more. 
